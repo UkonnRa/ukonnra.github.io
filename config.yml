@@ -24,15 +24,49 @@ languages:
         - name: Archive
           url: archives
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
         - name: Tags
-          url: tags/
+          url: tags
           weight: 10
         - name: Categories
-          url: categories/
+          url: categories
+          weight: 15
+        - name: Series
+          url: series
+          weight: 20
+        - name: Search
+          url: search
+          weight: 25
+  zh:
+    languageName: "简中"
+    languageAltTitle: "简体中文"
+    weight: 2
+    menu:
+      main:
+        - name: 归档
+          url: archives
+          weight: 5
+        - name: 标签
+          url: tags
           weight: 10
+        - name: 分类
+          url: categories
+          weight: 15
+        - name: 系列
+          url: series
+          weight: 20
+        - name: 搜索
+          url: search
+          weight: 25
+    title: "Ukonn Ra 技术博客"
+    homeInfoParams:
+      Title: "Ukonn Ra 技术博客"
+      Content: >
+        这里是 Ukonn Ra 的技术博客。
+        我在这里分享有趣且实用的技术&编程等内容。
+    editPost:
+      URL: "https://github.com/UkonnRa/ukonnra.github.io/tree/main/content"
+      Text: "编辑"
+      appendFilePath: true
 
 outputs:
   home:
@@ -42,34 +76,17 @@ outputs:
 
 params:
   env: production
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Ukonn Ra Blog for Tech & Programming"
   author: Ukonn Ra
 
   defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
-  # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
-  # comments: false
-  images: ["papermod-cover.png"]
-
-  profileMode:
-    enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
 
   homeInfoParams:
     Title: "Ukonn Ra Blog"
@@ -82,39 +99,9 @@ params:
       url: "https://github.com/UkonnRa"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # label:
-  #     text: "Home"
-  #     icon: icon.png
-  #     iconHeight: 35
-
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
-
-  # assets:
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
-
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
-
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
+    URL: "https://github.com/UkonnRa/ukonnra.github.io/tree/main/content"
+    Text: "Edit"
+    appendFilePath: true
 
 taxonomies:
   category: categories
@@ -125,17 +112,10 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
 
 privacy:
   vimeo:
-    disabled: true
+    disabled: false
     simple: true
 
   twitter:
@@ -144,7 +124,7 @@ privacy:
     simple: true
 
   instagram:
-    disabled: true
+    disabled: false
     simple: true
 
   youtube:
