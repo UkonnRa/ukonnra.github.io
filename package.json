@@ -12,7 +12,8 @@
     "lint": "npm run lint:markdown",
     "lint:fix": "npm run lint:markdown --fix",
     "lint:markdown": "markdownlint -p .markdownlint.json README.md content/**/*.md",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dependencies:update": "npx npm-check-updates -ui"
   },
   "config": {
     "commitizen": {
@@ -20,10 +21,10 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
-    "markdownlint-cli": "^0.30.0"
+    "markdownlint-cli": "^0.31.1"
   }
 }

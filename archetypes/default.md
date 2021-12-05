@@ -1,6 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+author: Ukonn Ra
+showToc: true
+TocOpen: false
+draft: false
 ---
 

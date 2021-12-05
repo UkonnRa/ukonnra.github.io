@@ -1,0 +1,2 @@
+{{ $payload := dict "code" .Inner "mermaid" (dict "theme" "dark") }}
+<img src="https://mermaid.ink/svg/{{ $payload | jsonify  | base64Encode }}">

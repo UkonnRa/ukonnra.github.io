@@ -27,3 +27,5 @@ _testmain.go
 
 .hugo_build.lock
 node_modules
+.vscode
+.idea

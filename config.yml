@@ -79,7 +79,7 @@ params:
   description: "Ukonn Ra Blog for Tech & Programming"
   author: Ukonn Ra
 
-  defaultTheme: auto
+  defaultTheme: dark
   ShowShareButtons: false
   ShowReadingTime: true
   displayFullLangName: true
