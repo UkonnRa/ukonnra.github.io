@@ -1,19 +1,20 @@
 {
   "name": "ukonnra-blog",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Ukonn Ra Blog",
   "author": "Ukonn Ra<ukonnra@outlook.com>",
   "license": "MIT",
   "private": true,
+  "packageManager": "yarn@3.2.3",
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "scripts": {
     "lint": "npm run lint:markdown",
     "lint:fix": "npm run lint:markdown --fix",
     "lint:markdown": "markdownlint -p .markdownlint.json README.md content/**/*.md",
     "prepare": "husky install",
-    "dependencies:update": "npx npm-check-updates -ui"
+    "upgrade": "yarn upgrade-interactive"
   },
   "config": {
     "commitizen": {
@@ -21,10 +22,11 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "commitizen": "^4.2.5",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4",
-    "markdownlint-cli": "^0.31.1"
+    "husky": "^8.0.1",
+    "markdownlint-cli": "^0.32.2"
   }
 }
