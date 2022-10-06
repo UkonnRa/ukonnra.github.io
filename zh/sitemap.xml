@@ -2,21 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.ukonnra.com/zh/posts/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/posts/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/posts/markdown-syntax/"
-                />
-  </url><url>
     <loc>https://blog.ukonnra.com/zh/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -28,60 +14,7 @@
                 href="https://blog.ukonnra.com/zh/categories/"
                 />
   </url><url>
-    <loc>https://blog.ukonnra.com/zh/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/tags/css/"
-                />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/tags/html/"
-                />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/tags/markdown/"
-                />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/posts/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/posts/"
-                />
-  </url><url>
     <loc>https://blog.ukonnra.com/zh/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,21 +26,7 @@
                 href="https://blog.ukonnra.com/zh/series/"
                 />
   </url><url>
-    <loc>https://blog.ukonnra.com/zh/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/categories/syntax/"
-                />
-  </url><url>
     <loc>https://blog.ukonnra.com/zh/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -119,47 +38,7 @@
                 href="https://blog.ukonnra.com/zh/tags/"
                 />
   </url><url>
-    <loc>https://blog.ukonnra.com/zh/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/tags/themes/"
-                />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/categories/themes/"
-                />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.ukonnra.com/series/themes-guide/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.ukonnra.com/zh/series/themes-guide/"
-                />
-  </url><url>
     <loc>https://blog.ukonnra.com/zh/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -170,6 +49,8 @@
                 hreflang="zh"
                 href="https://blog.ukonnra.com/zh/"
                 />
+  </url><url>
+    <loc>https://blog.ukonnra.com/zh/tags/</loc>
   </url><url>
     <loc>https://blog.ukonnra.com/zh/categories/</loc>
   </url><url>
@@ -196,8 +77,6 @@
                 hreflang="zh"
                 href="https://blog.ukonnra.com/zh/search/"
                 />
-  </url><url>
-    <loc>https://blog.ukonnra.com/zh/tags/</loc>
   </url><url>
     <loc>https://blog.ukonnra.com/zh/series/</loc>
   </url>

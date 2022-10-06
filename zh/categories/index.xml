@@ -4,25 +4,6 @@
     <title>Categories on Ukonn Ra 技术博客</title>
     <link>https://blog.ukonnra.com/zh/categories/</link>
     <description>Recent content in Categories on Ukonn Ra 技术博客</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ukonnra.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>syntax</title>
-      <link>https://blog.ukonnra.com/zh/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ukonnra.com/zh/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://blog.ukonnra.com/zh/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.ukonnra.com/zh/categories/themes/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog.ukonnra.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
