@@ -1,13 +1,10 @@
 ---
-author: "Ukonn Ra"
 title: "OAuth 2.1 Framework Going Through"
 date: 2021-12-04
 description: Go through the OAuth 2.1 framework specification
 tags: ["oauth2", "oauth2.1", "authorization", "specification"]
 categories: ["authorization"]
 series: ["OAuth Going Through"]
-ShowToc: true
-TocOpen: true
 draft: true
 ---
 
